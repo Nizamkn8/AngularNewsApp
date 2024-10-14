@@ -1,0 +1,20 @@
+<div class="main-content">
+  <div class="pagetile">
+    <h3>Top Headlines</h3>
+  </div>
+  <div class="cards-container">
+    <div *ngFor="let item of topHeadingDisplay" class="cards">
+      <img src="{{item.urlToImage}}" alt="image" class="card-img">
+      <div class="card-contents">
+        <p class="card-title">{{ item.title }}</p>
+        <!-- <p>{{ item.content }}</p>
+        <p>{{ item.description }}</p> -->
+        <p class="date"> {{ item.publishedAt }} </p>
+        <a href="{{ item.url }} " class="readmore-btn"> Read More </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

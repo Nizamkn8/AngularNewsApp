@@ -1,0 +1,35 @@
+header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  height: 100px;
+
+}
+
+.header-logo {
+  font-size: 30px;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.header-items {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.header-items li {
+  list-style: none;
+}
+
+.header-items a {
+  color: #221e1e;
+  text-decoration: none;
+  font-weight: 500;
+}
